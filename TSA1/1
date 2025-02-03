@@ -1,0 +1,20 @@
+input_string = input("Enter a word or phrase: ")
+vowels = 0
+consonants = 0
+spaces = 0
+others = 0
+vowel_list = "AEIOUaeiou"
+for char in input_string:
+    if char.isalpha():  
+        if char in vowel_list:
+            vowels += 1
+        else:
+            consonants += 1
+    elif char == ' ':  
+        spaces += 1
+    else:  
+        others += 1
+print(f"Number of vowels: {vowels}")
+print(f"Number of consonants: {consonants}")
+print(f"Number of spaces: {spaces}")
+print(f"Other characters: {others}")
