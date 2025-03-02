@@ -1,0 +1,6 @@
+Last name: cenidoza
+First name: lance
+Age: 20
+Contact number: 09760051914
+Course: BSIT-BA
+
